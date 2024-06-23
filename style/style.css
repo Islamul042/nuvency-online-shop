@@ -3,3 +3,62 @@
 body{
     font-family: "Poppins", sans-serif;;
 }
+/* -------------navbar start here-------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black
+}
+.nav-section{
+    max-width: 1250px;
+    margin: 0 auto;
+   
+    /* border: 2px solid red; */
+    display: flex;
+  
+}
+.nav-container{
+    /* border: 1px solid red; */
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.nav-container img{
+    width: 80px;
+}
+
+.nav-container p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.shop{
+    color: brown;
+}
+
+.item-container{
+
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 900px;
+}
+.item-container a{
+    text-decoration: none;
+    color: wheat;
+    
+}
+.login-btn {
+    background-color: brown;
+    border-radius: 5px;
+    padding: 4px 14px 6px 18px;
+}
